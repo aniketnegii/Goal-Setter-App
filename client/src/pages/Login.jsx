@@ -30,7 +30,7 @@ const Login = () => {
             navigate("/");
         }
         dispatch(reset());
-    }, [user, isError, isSuccess, message, navigate, dispatch]);
+    }, [user]);
 
     const onChange = (e) => {
         setFormData((prevState) => ({
